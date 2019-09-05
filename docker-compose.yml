@@ -5,7 +5,6 @@ services:
     volumes:
       - ivy-vol:/root/.ivy2
       - sbt-vol:/root/.sbt
-      - ./target:/app/target
       - .:/app
 volumes:
   ivy-vol:
