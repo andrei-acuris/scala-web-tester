@@ -1,4 +1,4 @@
-## tettestteeeeeetest - performance test suite
+## scala-web-tester - performance test suite
 
 Project uses [sbt plugin][sbtplugindoc] of [gatling][gatlingdoc].
 It contains basic simulation from gatling quick start bundle.
