@@ -1,0 +1,14 @@
+version: '2.1'
+services:
+  tester:
+    build: .
+    volumes:
+      - ivy-vol:/root/.ivy2
+      - sbt-vol:/root/.sbt
+      - ./target:/app/target
+      - .:/app
+volumes:
+  ivy-vol:
+    driver: local
+  sbt-vol:
+    driver: local

@@ -1,0 +1,9 @@
+#vscode
+.vscode/
+
+# sbt
+target/
+
+# scala
+*.class
+*.log
